@@ -1,9 +1,8 @@
 var recipes = { eggs: 12 };
 
-function updateObjectWithKeyAndValue(object, key, value) {
-  obj[key] = value;
+function updateObjectWithKeyAndValue(recipes, 'flour', '3 cups') {
+  recipes[flour] = '3 cups';
 
-  return obj;
+  return recipes;
 };
 
-updateObjectWithKeyAndValue(recipes, 'flour', '3 cups');
